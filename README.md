@@ -1,0 +1,1 @@
+Crafted UI is a curated collection of reusable, aesthetic components built with Vanilla CSS and JavaScript. Designed to enhance workflows for developers and designers, this library will evolve with Tailwind CSS and React. Each component focuses on clean design, usability, and adaptability for real-world projects.
