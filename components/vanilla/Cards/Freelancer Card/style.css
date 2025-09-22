@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper {
-    height: 55vmin;
+    height: 65vmin;
     width: 45vmin;
     background-color: var(--card_wrapper_bg);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.053);
@@ -75,7 +75,6 @@ body {
 
 .profile_info {
     margin-top: 1.4rem;
-    /* border: 1px solid #ccc; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,8 +107,101 @@ body {
     border: 1px solid #ccc;
 }
 
+.experties {
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
 
+.first,
+.second {
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+}
 
+.first .symbol {
+    height: 23px;
+    width: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(140, 0, 255);
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.first p {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.second {
+    padding: 0.4rem 0.6rem;
+}
+
+.second p {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.stats {
+    padding: 0.2rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: space-between;
+}
+
+.stats .box {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.box.one,
+.box.two {
+    border-right: 1px solid #ccc;
+}
+
+.box .inner_box span {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.box .inner_box i {
+    font-size: 0.7rem;
+    color: var(--text_color);
+}
+
+.box p {
+    font-size: 0.8rem;
+    color: var(--sub_txt_color);
+}
+
+.getInTouch {
+    width: 100%;
+}
+
+.getInTouch .btn {
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    background-color: #000;
+    color: #fff;
+}
 
 
 
