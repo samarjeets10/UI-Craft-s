@@ -1,0 +1,123 @@
+
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --main_wrapper_bg:#F5F5F7;
+    --card_wrapper_bg:#FFFFFF;
+    --text_color: #343434;
+    --sub_txt_color:#808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.main_wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: var(--main_wrapper_bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    height: 55vmin;
+    width: 45vmin;
+    background-color: var(--card_wrapper_bg);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.053);
+    border-radius: 1.1rem;
+    padding: 0.8rem;
+
+}
+
+.profile_banner {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    background-color: #808080;
+    border-radius: 1.5rem;
+}
+
+.profile_banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.profile_image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+}
+
+.profile_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile_info {
+    margin-top: 1.4rem;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    padding: 0.2rem;
+}
+
+.left h3 {
+    font-size: 1rem;
+    color: var(--text_color);
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+}
+
+.left p {
+    font-size: 0.8rem;
+    color: var(--sub_txt_color);
+}
+
+.right .icon {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
